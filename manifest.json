@@ -1,0 +1,10 @@
+{
+  "filename": "NewHorizonsConfig.dll",
+  "author": "Shuit",
+  "name": "BlackHole Sun",
+  "uniqueName": "Shuit.BlackHoleSun",
+  "version": "0.0.1",
+  "owmlVersion": "2.5.2",
+  "dependencies": ["xen.NewHorizons"],
+  "conflicts": ["Shuit.NoSun"]
+}

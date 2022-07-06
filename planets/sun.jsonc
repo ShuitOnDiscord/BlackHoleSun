@@ -1,0 +1,21 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/dev/NewHorizons/Schemas/body_schema.json",
+	"name": "Sun",
+	"removeChildren": [
+		// main sun children
+		"RFVolume_SUN",
+		"AmbientLight_SUN",
+		"Atmosphere_SUN",
+		"StarLightController",
+		// Sector_SUN children
+		"Sector_SUN/Geometry_SUN",
+		"Sector_SUN/Volumes_SUN",
+		"Sector_SUN/Effects_SUN",
+		"Sector_SUN/Audio_SUN"
+	],
+	"Props": {
+		"singularities": [
+			{"type": "blackHole", "position": {"x": 0, "y": 0, "z": 0}, "size": 5000, "makeZeroGVolume": false, "curve": [{"time": 0, "value": 0},{"time": 1, "value": 0},{"time": 1.05, "value": 1},{"time": 21, "value": 2}], "uniqueID": "0", "pairedSingularity": "0"}
+		]
+	}
+}
