@@ -3,7 +3,6 @@
 	"name": "Sun",
 	"removeChildren": [
 		// main sun children
-		"RFVolume_SUN",
 		"AmbientLight_SUN",
 		"Atmosphere_SUN",
 		"StarLightController",
@@ -15,7 +14,7 @@
 	],
 	"Props": {
 		"singularities": [
-			{"type": "blackHole", "position": {"x": 0, "y": 0, "z": 0}, "size": 5000, "makeZeroGVolume": false, "curve": [{"time": 0, "value": 0},{"time": 1, "value": 0},{"time": 1.05, "value": 1},{"time": 21, "value": 2}], "uniqueID": "0", "pairedSingularity": "0"}
+			{"type": "blackHole", "position": {"x": 0, "y": 0, "z": 0}, "size": 5000, "makeZeroGVolume": false, "curve": [{"time": 0, "value": 0},{"time": 1, "value": 0},{"time": 1.05, "value": 1},{"time": 21, "value": 2},{"time": 22,"value": 2},{"time":22.13,"value": 50},{"time": 23,"value": 15}], "uniqueID": "0", "pairedSingularity": "0"}
 		]
 	}
 }
